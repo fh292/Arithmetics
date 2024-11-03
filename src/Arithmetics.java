@@ -11,10 +11,10 @@ public class Arithmetics {
         double amountKWD2 = amountUS2/3.25;
         System.out.printf(amountUS2 +" USD = " + "%.2f KWD " , amountKWD2);
         System.out.println(" ");
+
         //convert EUR to KWD
         double amountEUR = 100;
         double amountKWD3 = amountEUR/3.33;
-
         System.out.println(amountEUR +" EUR = " + amountKWD3 +" KWD " );
 
 
