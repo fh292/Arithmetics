@@ -15,7 +15,8 @@ public class Arithmetics {
         //convert EUR to KWD
         double amountEUR = 100;
         double amountKWD3 = amountEUR/3.33;
-        System.out.println(amountEUR +" EUR = " + amountKWD3 +" KWD " );
+        System.out.printf(amountEUR +" EUR = " + "%.2f KWD " , amountKWD3);
+
 
 
 
